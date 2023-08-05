@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import ReactDOM from 'react-dom';
+import {BrowserRouter, Router, Routes, Route, Switch, Link, Navigate} from "react-router-dom";
+import LandingPage from './pages/LandingPage';
+import ColdImmersion from './pages/ColdImmersion';
+import React, { useState } from 'react';
 
-function App() {
+
+export default function App() {
+
+  const [value, setValue] = useState('');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* <UserContext.Provider value={{value,setValue}}> */}
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/cold-immersion" element={<ColdImmersion />} />
+
+          {/* <Route path="/booking/:recordID" element={<Booking />} /> */}
+
+          <Route path="*" element={<Navigate to="/"/>} />
+        {/* </UserContext.Provider>  */}
+      </Routes>
+    </BrowserRouter>
   );
 }
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 
-export default App;
+
+
+
+
+
+
+// export default App;
