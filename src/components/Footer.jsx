@@ -1,5 +1,5 @@
 import React from 'react'
-import LOGO from '../static/Cold.JPG'
+// import LOGO from '../static/Cold.JPG'
 
 function Footer(){
 
@@ -44,18 +44,18 @@ function Footer(){
                         </div>
                     </div>
                     <div class="foot-social">
-                        <a href="https://www.facebook.com/szb.jehan"
+                        <a href="https://www.facebook.com/"
                             ><i class="fab fa-facebook-square"></i>
                         </a><br />
-                        <a href="https://github.com/SZBjehan"
+                        <a href="https://github.com/"
                             ><i class="fab fa-instagram"></i>
                         </a>
                         <a href="https://szbjehan.github.io/portfolio/"
                             ><i class="fas fa-code"></i>
                         </a>
-                        <div class="foot-logo">
+                        {/* <div class="foot-logo">
                             <a href="https://squarehealth.com.bd/"><img src={LOGO} alt="Logo" class="foot-photo" /></a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

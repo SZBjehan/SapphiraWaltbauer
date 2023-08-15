@@ -1,8 +1,8 @@
 import React from 'react'
 import Footer from '../components/Footer';
-import Header from '../components/Header'
 import Nav from '../components/Nav';
 import Feature from '../components/Feature';
+import About from '../components/About';
 
 function LandingPage(){
 
@@ -10,7 +10,9 @@ function LandingPage(){
         <div>
             <Nav />
 
-            <Feature />
+            {/* <Feature /> */}
+            
+            <About />
 
             <Footer />
         </div>
