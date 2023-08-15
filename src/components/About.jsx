@@ -5,7 +5,7 @@ import Self from '../static/selfPhoto.png'
 function About(){
 
     return (
-        <div>
+        <div className='bodyy'>  
             
             <div class="feature-body">
                 <div class="self-photo-div">

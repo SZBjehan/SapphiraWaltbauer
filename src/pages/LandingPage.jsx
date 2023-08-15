@@ -3,6 +3,8 @@ import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import Feature from '../components/Feature';
 import About from '../components/About';
+import Booking from '../components/Booking';
+import Learn from '../components/Learn';
 
 function LandingPage(){
 
@@ -13,6 +15,10 @@ function LandingPage(){
             {/* <Feature /> */}
             
             <About />
+            
+            <Learn />
+
+            <Booking />
 
             <Footer />
         </div>

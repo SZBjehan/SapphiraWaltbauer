@@ -80,18 +80,24 @@
 
 
 /* About Section */
+.bodyy{
+  margin: 3em;
+  overflow: hidden;
+  text-align: justify;
+}
+
 .feature-body {
   max-width: 500px;
   margin: auto;
   display: flex;
-  background-color: #c8e7dd;
+  background-color: #b7b2f8;
 
 }
 
 .feature-text {
   margin-right: -200px;
-  padding: 20px;
-  background-color: #c8e7dd;
+  padding: 30px;
+  background-color: #e0fff5;
   border-radius: 10px;
   box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.1);
   overflow: hidden;
@@ -113,6 +119,13 @@
   width: 400px;
   border-radius: 10px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Learn */
+.learn-cold{
+  text-align: center;
+  margin: 5em;
 }
 
 
