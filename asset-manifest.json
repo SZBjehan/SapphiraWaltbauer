@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SapphiraWaltbauer/static/css/main.1807a47e.css",
+    "main.js": "/SapphiraWaltbauer/static/js/main.94db4412.js",
+    "static/js/787.938cae0a.chunk.js": "/SapphiraWaltbauer/static/js/787.938cae0a.chunk.js",
+    "static/media/selfPhoto.png": "/SapphiraWaltbauer/static/media/selfPhoto.34c7e08636356db91ceb.png",
+    "static/media/uploadPhoto.JPG": "/SapphiraWaltbauer/static/media/uploadPhoto.7c85927548867d537af4.JPG",
+    "index.html": "/SapphiraWaltbauer/index.html",
+    "main.1807a47e.css.map": "/SapphiraWaltbauer/static/css/main.1807a47e.css.map",
+    "main.94db4412.js.map": "/SapphiraWaltbauer/static/js/main.94db4412.js.map",
+    "787.938cae0a.chunk.js.map": "/SapphiraWaltbauer/static/js/787.938cae0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1807a47e.css",
+    "static/js/main.94db4412.js"
+  ]
+}
